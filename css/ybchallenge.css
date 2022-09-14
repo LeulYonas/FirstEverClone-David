@@ -1,0 +1,296 @@
+
+body {
+    background: rgb(37, 36, 36);
+    
+}
+
+.container{
+    font-size: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows:105px 40px 360px 145px 140px 430px 20px;
+    grid-template-columns: 976px;
+    margin: 5px;
+}
+
+.logobar{
+    background:rgb(27, 26, 25);
+    display: grid;
+    grid-template-columns: auto 200px;
+}
+
+.logobar img{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.phone-number p{
+     font-size: medium;
+     color: white;
+     grid-template-columns: auto;
+    }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*....*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(165, 122, 122, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(221, 221, 221);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/*
+#navbar{
+   background: black;
+   font-size: medium;
+   
+}
+#navbar ul{
+    margin-bottom: 10px;
+}
+#navbar li{
+   float: left;
+   width: 11%;
+   padding-bottom: 10px;
+}
+#navbar a{
+    color: white;
+}
+*/
+.main-pic img{
+    background: rgb(116, 108, 105);
+    height: 200px; 
+    border-bottom: 5px;
+    border: 5px gray solid;
+}
+
+.ridiculus {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    background: rgb(27, 26, 25);
+   
+}
+
+.item1 {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.item1 h2{
+    color: rgb(197, 117, 25);
+    line-height: 0px;
+    font-size: 18px;
+}
+.item1 p{
+    color: white;
+    line-height:20px ;
+    font-size: 13px;
+}
+
+.item1 img{
+    margin-top: 20px;
+    height: 35px;
+    length: 45px;
+}
+.item12 {
+    margin-top: 20px;
+}
+.buy-now{
+    background: black;
+    color: lightyellow;
+}
+
+.portfolio{
+    background: rgb(27, 26, 25);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.port {
+    display: grid;
+    grid-template-rows: 8fr 10fr;
+}
+.porthorizontal {
+    display: grid;
+    grid-template-columns: auto 15%;
+    grid-column: 1/5;
+    height: 0px;
+    background: khaki;
+}
+.porthor1 h2{
+    color: white;
+}
+.porthor2 p{
+    color: rgb(185, 105, 30);
+}
+.back-to-top{
+    background: rgb(46, 44, 41);
+}
+
+.port1image{
+    border: 5px rgb(56, 56, 56) solid;
+    height: 135px;
+    width: 212px;
+}
+.port1text {
+    background: rgb(27, 26, 25);
+    color: white;
+    margin-right:20px;
+}
+
+.port1text h2{
+    color: rgb(185, 105, 30);
+    line-height: 5px;
+    font-size: 17px;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: rgb(119, 111, 111);
+    background:  rgb(27, 26, 25);
+}
+
+.buy-now{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-content: start ;
+}
+
+.button {
+    text-align: center;
+    line-height: 40px;
+    display: grid;
+    height: 40px;
+    width: 120px;
+    align-items: flex-end;
+    background-color: rgb(218, 132, 51);
+	color:#fff;
+    justify-self: center;
+    align-self: center;
+    border-radius: 6px;
+}
+.button a{
+    color:white;
+}
+    
+
+.pitch {
+    padding: 20px;
+}
+.pitch h2{ 
+    line-height: 0px;
+}
